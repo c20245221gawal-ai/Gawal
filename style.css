@@ -1,0 +1,42 @@
+p {
+    color: red;
+
+}
+
+h2 {
+    color: green;
+    text-decoration: underline;
+}
+.project {
+    color: pink;
+}
+#services  {
+    color: blue;
+}
+
+body {
+    text-align: center;
+    list-style-type: none;
+}
+#contact {
+    color: orange;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+
+}
+   main{ 
+    dispaly:flex;
+    flex-wraps:wrap;
+   }
+
+
+
+
