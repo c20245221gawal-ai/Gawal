@@ -83,4 +83,24 @@ form {
         color: blue;
     }
 }
+/* HOVER EFFECTS /*
+ nav a {
+    transition: color 0.5s ease;
+
+ }
+ nav a:hover {
+    color: red;
+ }
+button {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 1s ease;
+}    
+   button:hover {
+    background-color: pink;
+    color: black;
+   }
 
