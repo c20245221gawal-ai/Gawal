@@ -17,11 +17,19 @@ console.log(`Address ${address}`)
 const projectHeading = document.querySelector("h1");
  console.log (projectHeading);
 
+ // text content
+heading.textContent = "My Portfolio";
+contactHeading.textContent = "lets connect";
+projectHeading.textContent = "My Projects";
 
-
-
-
-    
+// style
+heading.style.color = "purple";
+heading.style. backgroundColor = "yellow";
+contactHeading.style.color = "purple";
+serviceHeading.style.color = "purple";
+const projectHeading = document.querySelector("#projects h2");
+projectHeading.style.color = "purple";
+  
 
 
 
